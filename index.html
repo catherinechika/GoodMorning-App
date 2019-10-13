@@ -11,6 +11,7 @@
     <!--CSS-->
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <!--Google Fonts CSS-->
     <link
@@ -23,31 +24,35 @@
 
 <body>
     <br>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div class="navbar-start">
-            <div class="date">
-                <p>Today is <span id="day"></span>
-                    <span id="month"></span>
-                    <span id="dayOfMonth"></span>
-                </p>
+    <div class='row jumbotron'>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-start">
+                <div class="date">
+                    <p>Today is
+                        <span id="day"></span>
+                        <span id="month"></span>
+                        <span id="dayOfMonth"></span>
+                    </p>
+                </div>
             </div>
-        </div>
-        <div class="navbar-end">
-            <div class="navbar zipcode">
-                <form class="zipcode-form">
-                    <label for="zipcode-input">ZipCode:</label>
-                    <input type="text" id="zipcode-input">
-                    <input id="find-zipcode" type="submit" value="Search">
-                </form>
+            <div class="navbar-end">
+
             </div>
+        </nav>
+        <div class=" zipcode">
+            <form class="zipcode-form">
+                <label for="zipcode-input">ZipCode:</label>
+                <input type="text" id="zipcode-input">
+                <input id="find-zipcode" type="submit" value="Search">
+            </form>
         </div>
-    </nav>
+    </div>
     <main>
         <br>
         <div class="container">
             <h1 class="display-4"></h1>
 
-            <div class="columns">
+            <div class="row">
                 <div class="column">
                     <div class="weather">
                         <h1 class="city"></h1>

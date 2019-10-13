@@ -19,10 +19,15 @@ body{
     font-weight: bold;
     font-size: 30px;
 }
+.zipcode{
+    float: left;
+    position: absolute;
+    right: 0;
+}
 
 .navbar ,.zipcode{
     padding: 15px;
-    background-color: rgba(255, 255, 255, 0.7);
+    /* background-color: rgba(255, 255, 255, 0.7); */
 }
 
 .display-4{
