@@ -100,7 +100,14 @@ footer{
     text-align:center;
 }
 
-.navbar,.display-4,.date,.weather,.header,footer{
+
+.navbar,.display-4,.date,.weather,.header,footer, .card{
     font-family: 'Abel', sans-serif;
+}
+.time{
+    font-size: 100px;
+}
+.card{
+    width: 600px !important;
 }
 
