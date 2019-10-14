@@ -2,9 +2,12 @@ body{
     height: 100vh;
     text-align: center;
     width: 100%;
+    background: beige;
 }
+
 .meditateBtn, .start{
-    height: 100px;
+    height: 150px;
+    margin: auto;
 }
 
 .display-4{
@@ -12,6 +15,7 @@ body{
     padding: 5px;
     background-color: rgba(255, 255, 255, 0.89);
 }
+
 .weather, .date{
     margin: 30px 10px;
     border-radius: 30px;
@@ -27,12 +31,13 @@ body{
     color: black;
     font-size: 40px;
     font-weight: bold;
-    margin: 30px 10px;
+    margin: auto;
     border-radius: 30px;
-    padding: 5px;
     height: 75%;
     text-align: center;
+    padding: 50px;
     background: burlywood;
+    margin-top:50px;
 
 }
 
@@ -44,6 +49,16 @@ button{
     background: blanchedalmond;
     margin:20px;
 }
+.time{
+    font-size: 100px;
+}
+
+/* .container{
+    margin: auto;
+    padding: 50px;
+    margin-top:50px;
+} */
+
 footer{
     width: 100%;
     margin:0 auto;
@@ -56,10 +71,5 @@ footer{
     font-weight:bold;
     text-align:center;
 }
-.time{
-    font-size: 100px;
-}
-.container{
-    margin: auto;
-}
+
 
